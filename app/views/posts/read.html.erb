@@ -1,0 +1,6 @@
+<h1><%= @posts.id %> ::
+<%= @post.title %></h1>
+<p><%= @post.content %></p>
+<a href = '/post/index'> 목록으로</a>
+<a href = '/post/<%= @posts.id %>/destroy'>삭제</a>
+<a href = '/post/<%= @posts.id %>/edit'>수정</a>
